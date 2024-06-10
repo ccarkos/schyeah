@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganhe Premios</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <center>
+    <h1>ESCOLHA O ÁLBUM EXISTENTE</h1>
+    <br>
+    <h3>WHOLE LOTTA RED</h3>
+    <a href="https://open.spotify.com/intl-pt/album/2QRedhP5RmKJiJ1i8VgDGR"> <img style="height: 512px; width: 512px;" src="img/wlr.jpg" alt=""></a>
+    <br><br>
+    <input type="button" value="CLIQUE AQUI" onclick="apertarWLR ()" class="botao">
+    <br><br>
+    <h3>DIE LIT</h3>
+    <a href="https://open.spotify.com/intl-pt/album/7dAm8ShwJLFm9SaJ6Yc58O"> <img style="height: 512px; width: 512px;" src="img/die lit.jpg" alt=""></a>
+    <br><br>
+    <input type="button" value="CLIQUE AQUI" onclick="apertarDL ()" class="botao">
+    <br><br>
+    <h3>2024 MUSIC</h3>
+    <a href=> <img style="height: 512px; width: 512px;" src="img/2024.jpg" alt=""></a>
+    <br><br>
+    <input type="button" value="CLIQUE AQUI" onclick="apertar2024 ()" class="botao">
+    <h1>------------------------------------------------</h1>
+    </center>
+
+
+    <script>
+       function apertarWLR () {
+            
+
+            Swal.fire({
+                title: "Boa paizão!",
+                text: "O Carti lançou Whole Lotta Red!",
+                icon: "success"
+              });
+
+        }
+
+        function apertarDL () {
+            
+
+            Swal.fire({
+                title: "Isso aí!",
+                text: "Ele não mentiu sobre esse!",
+                icon: "success"
+              });
+
+        }
+
+        function apertar2024 () {
+            
+
+            Swal.fire({
+                title: "esquece",
+                text: "2024 não vai ser lançado",
+                icon: "error"
+              });
+
+        }
+    </script>
+</body>
+</html>
